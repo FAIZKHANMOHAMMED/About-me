@@ -16,13 +16,16 @@
     font-weight: 600;
 }
 .hero h1 span{
-    background:  linear-gradient(135deg, #071952 10%, #088395 100%);
+    /* background:  linear-gradient(135deg, #071952 10%, #088395 100%); */
     /* #d0b8ac, #f3d8c7, #efe5dc */
-background-clip: text;
+    color: #6fffe9;
+
+/* background-clip: text;
 -webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+-webkit-text-fill-color: transparent; */
 }
 .hero p{
+    font-family: 'Times New Roman', Times, serif;
     width: 90%;
     text-align: justify;
     font-size: 24px;
@@ -39,7 +42,7 @@ background-clip: text;
 img{
     height: 300px;
     border-radius: 200px;
-    mix-blend-mode: multiply;
+    /* mix-blend-mode: multiply; */
 }
 .logo-box{
     display: flex;
