@@ -17,7 +17,7 @@
     padding: 20px 40px;
     border-radius: 30px;
     /* background: linear-gradient(267deg, yellow 0.37%, pink 102.06%); */
-    background-color: #92140c;
+    background:  linear-gradient(135deg, #071952 10%, #088395 100%);
     font-size: 22px;
     cursor: pointer; 
     transition: 0.5s ;

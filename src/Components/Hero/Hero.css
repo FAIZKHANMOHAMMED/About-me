@@ -7,6 +7,7 @@
 }
 .hero-img{
     margin-top: 150px;
+   
 }
 .hero h1{
     text-align: center;
@@ -15,7 +16,8 @@
     font-weight: 600;
 }
 .hero h1 span{
-background-color:  #92140c;
+    background:  linear-gradient(135deg, #071952 10%, #088395 100%);
+    /* #d0b8ac, #f3d8c7, #efe5dc */
 background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
@@ -35,8 +37,9 @@ background-clip: text;
     margin-bottom: 50px;
 }
 img{
-    height: 280px;
+    height: 300px;
     border-radius: 200px;
+    mix-blend-mode: multiply;
 }
 .logo-box{
     display: flex;
@@ -48,7 +51,7 @@ img{
 .hero-connect{
     padding: 25px 45px;
     border-radius: 50px ;
-    background-color:#92140c ;
+    background:  linear-gradient(135deg, #071952 10%, #088395 100%);
     color: #fff8f0;
     cursor: pointer;
 }
@@ -62,5 +65,6 @@ img{
     border: 2px solid white;
 }
 .hero-resume:hover{
-  border-color: #d65a20ae;
+    background:  linear-gradient(135deg, #071952 10%, #088395 100%);
+    color: #fff8f0;
 }
