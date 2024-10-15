@@ -1,6 +1,6 @@
 import { useState } from "react";
 import './Hero.css'
-import profile_img from '../../assets/profile-pic.png'
+import profile_img from '../../assets/profile_img.jpeg'
 
 export default function Hero () {
     return(<div className="hero">
